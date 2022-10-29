@@ -1,38 +1,42 @@
 import { useState, useEffect } from 'react';
 
+import './App.css'
+import Nav from './components/Nav';
+
 function App() {
 
-const [message, setMessage] = useState(null)
-const [messages, setMessages] = useState([])
-const [account,setAccount] = useState(0)
+// const [message, setMessage] = useState(null)
+// const [messages, setMessages] = useState([])
+// const [account,setAccount] = useState(0)
 
-useEffect(()=>{
+// useEffect(()=>{
 
-  const fetchData = async ()=>{
-    const url = "https://api.adviceslip.com/advice"
+//   const fetchData = async ()=>{
+//     const url = "https://api.adviceslip.com/advice"
 
-    const res = await fetch(url)
-    const data = await res.json()
+//     const res = await fetch(url)
+//     const data = await res.json()
   
-    setMessage(data.slip)
+//     setMessage(data.slip)
 
-    setMessages([...messages, data.slip.advice])
+//     setMessages([...messages, data.slip.advice])
 
-  }
+//   }
 
-  fetchData()
+//   fetchData()
 
 
-},[account])
+// },[account])
 
-  return (
-    <div className="App">
+  return (  
 
-    {message && <h1 key={message.id}>{message.advice}</h1>}
+    <div className='App'>
+    <Nav />
 
-    <button onClick={()=>setAccount(account +1)}>Nova mensagem</button>
-      
+
     </div>
+
+
   );
 }
 

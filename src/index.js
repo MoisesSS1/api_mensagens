@@ -1,13 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//Components
+import App from './App';
+import Home from './pages/Home'
+import ListMessage from './pages/ListMessages'
+import Message from './pages/Message'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Routes>
+      <Route element={<App/>}>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/listmessages' element={<ListMessage />}/>
+        <Route path='/message' element={<Message />} />
+
+      </Route>
+    </Routes>
+    </BrowserRouter>
+
   </React.StrictMode>
 );
 
