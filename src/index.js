@@ -11,6 +11,7 @@ import CreateAccount from './pages/CreateAccount';
 import Messages from './pages/Messages';
 import FavoriteMessages from './pages/FavoriteMessages';
 import Login from './pages/Login';
+import NoPages from './pages/NoPages'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route path="messages" element={<Messages />}/>
         <Route path="favoritemessages" element={<FavoriteMessages />}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/*' element={<NoPages />}/>
 
       </Route>
     </Routes>
