@@ -7,8 +7,10 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 //Components
 import App from './App';
 import Home from './pages/Home'
-import ListMessage from './pages/ListMessages'
-import Message from './pages/Message'
+import CreateAccount from './pages/CreateAccount';
+import Messages from './pages/Messages';
+import FavoriteMessages from './pages/FavoriteMessages';
+import Login from './pages/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,8 +19,10 @@ root.render(
     <Routes>
       <Route element={<App/>}>
         <Route path='/' element={<Home/>}/>
-        <Route path='/listmessages' element={<ListMessage />}/>
-        <Route path='/message' element={<Message />} />
+        <Route path="createaccount" element={<CreateAccount />}/>
+        <Route path="messages" element={<Messages />}/>
+        <Route path="favoritemessages" element={<FavoriteMessages />}/>
+        <Route path='/login' element={<Login/>}/>
 
       </Route>
     </Routes>
