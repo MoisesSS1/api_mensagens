@@ -17,14 +17,25 @@
     text-align: center;
     width: 350px;
     height: 250px;
-    background-color: antiquewhite;
+    background-color: hsl(0,0%,100%);
+    box-shadow: 1px -2px 27px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px -2px 27px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -2px 27px -1px rgba(0,0,0,0.75);
 }
 
 #home-links{
     display: flex;
     gap: 50px;
     flex-direction: row;
+    
+}
+
+#home-links a{
     text-decoration: none;
+}
+
+#home-links a:hover{
+    color: hsl(191,100%,34%);
 }
 
 

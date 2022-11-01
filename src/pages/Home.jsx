@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './css/Home.css'
-import bannerMsg from '../img/bannerMsg.jpg'
 
 const Home = () => {
   return (
