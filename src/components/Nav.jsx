@@ -1,12 +1,14 @@
 import { Link, Outlet } from 'react-router-dom';
+import {TbMessages} from 'react-icons/tb'
 import './nav.css'
 
 const Nav = () => {
   return (
     <>
     <nav id='nav'>
+      
       <ul>
-      <li><Link to='/'>Home</Link></li>
+      <span>{<TbMessages/>}</span>
       <li><Link to='/login'>Login</Link></li>
         <li><Link to='/createaccount'>Criar conta</Link></li>
         <li><Link to='/messages'>Mensagem</Link></li>
