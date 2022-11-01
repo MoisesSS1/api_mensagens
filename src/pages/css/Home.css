@@ -1,0 +1,30 @@
+#container-home{
+    display: flex;
+    width: 100%;
+    height: 46vw;
+    background-image: url(../img/bannerMsg.jpg);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-msg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+#home-links{
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+

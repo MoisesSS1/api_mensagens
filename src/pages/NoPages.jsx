@@ -1,5 +1,5 @@
 import React from 'react'
-import './NoPage.css'
+import './css/NoPage.css'
 import { Link } from 'react-router-dom'
 
 const NoPages = () => {
