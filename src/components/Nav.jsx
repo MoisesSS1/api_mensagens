@@ -8,9 +8,7 @@ const Nav = () => {
     <nav id='nav'>
       
       <ul>
-      <span>{<TbMessages/>}</span>
-      <li><Link to='/login'>Login</Link></li>
-        <li><Link to='/createaccount'>Criar conta</Link></li>
+      <span><Link to="/">Home{<TbMessages/>}</Link></span>
         <li><Link to='/messages'>Mensagem</Link></li>
         <li><Link to='/favoritemessages'>Mensagens favoritas</Link></li>
       </ul>
