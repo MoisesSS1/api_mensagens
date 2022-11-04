@@ -7,9 +7,9 @@ const NoPages = () => {
     <div id='noPage'>
       <div id='NoPage-container'>
 
-      <h1> 404 - PÁGINA NÃO ENCONTRADA</h1>
+      <h1> 404 - Page not found</h1>
 
-      <p><Link to='/'>Vá para a Home</Link></p>
+      <p><Link to='/'>Go Home</Link></p>
 
       </div>
     </div>

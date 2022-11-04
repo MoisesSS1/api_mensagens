@@ -21,7 +21,7 @@ const Login = () => {
         <form id='form-login' >
           <p><span>{< BiUserCircle />}</span> <input type="text" name="login" placeholder='  Login'/></p>
           
-          <p><span>{<RiLockPasswordLine/>}<input type="password" name="senha" placeholder='  Senha'/></span></p>
+          <p><span>{<RiLockPasswordLine/>}<input type="password" name="password" placeholder='  Paaword'/></span></p>
 
           <p><span > <CgEnter onClick={(e)=>onli(e)} size={35}/></span></p>
           
