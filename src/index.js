@@ -9,7 +9,6 @@ import App from './App';
 import Home from './pages/Home'
 import CreateAccount from './pages/CreateAccount';
 import Messages from './pages/Messages';
-import FavoriteMessages from './pages/FavoriteMessages';
 import Login from './pages/Login';
 import NoPages from './pages/NoPages'
 
@@ -22,7 +21,6 @@ root.render(
         <Route path='/' element={<Home/>}/>
         <Route path="createaccount" element={<CreateAccount />}/>
         <Route path="messages" element={<Messages />}/>
-        <Route path="favoritemessages" element={<FavoriteMessages />}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/*' element={<NoPages />}/>
 

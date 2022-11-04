@@ -16,10 +16,15 @@
 }
 
 #nav ul li{
+    color: #1b98e0;
     padding-right: 40px;
 }
 
 #nav ul span{
     position: absolute;
     left: 30px;
+}
+
+#nav ul li:hover{
+    cursor: pointer;
 }
