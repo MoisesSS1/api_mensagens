@@ -15,13 +15,13 @@ const Login = () => {
       
 
       <div id='box-login'>
-        <h1>Entrar</h1>
-        <p>Acesse as mensagens disponiveis!</p>
+        <h1>Login</h1>
+        <p>Sign in to see messages</p>
 
         <form id='form-login' >
           <p><span>{< BiUserCircle />}</span> <input type="text" name="login" placeholder='  Login'/></p>
           
-          <p><span>{<RiLockPasswordLine/>}<input type="password" name="password" placeholder='  Paaword'/></span></p>
+          <p><span>{<RiLockPasswordLine/>}<input type="password" name="password" placeholder='  Password'/></span></p>
 
           <p><span > <CgEnter onClick={(e)=>onli(e)} size={35}/></span></p>
           
