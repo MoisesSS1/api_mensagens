@@ -7,9 +7,8 @@ import { CgEnter } from 'react-icons/cg'
 const Login = () => {
 
   function onli(e) {
-    e.preventDefault()
-    alert('1')
-  }
+
+  } 
 
   return (
     <div id="login">
