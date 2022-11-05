@@ -1,0 +1,49 @@
+#createAccount{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 46vw;
+    background-color: #008cac;
+}
+
+#box-create{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: top;
+    border-radius: 20px;
+    margin: 0px auto;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+
+}
+
+#box-create form input {
+    height: 50px;
+    margin-bottom: 30px;
+    border-style: none;
+}
+
+#box-create form input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom:solid 1px #008cac ;
+}
+
+#box-create form input span{
+    padding-left:30px;
+    height: 20px;
+}
+
+#box-create form p{
+    text-align: center;
+}
+
+#save:hover{
+    cursor: pointer;
+
+}
