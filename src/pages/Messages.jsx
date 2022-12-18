@@ -33,7 +33,6 @@ useEffect(()=>{
 const validatorClick = (e)=>{
   
   setAccount(account + 1)
-
 }
 
   return (
@@ -52,7 +51,6 @@ const validatorClick = (e)=>{
             {arrayMessage.map((message) => {
                   return <CardMessage key={message.id} message={message}/>
                 })}
-      
       
             </div>
       </div>
