@@ -43,3 +43,15 @@
     text-align: center;
 }
 
+@media (max-width:1000px){
+
+    #box-login{
+        margin-top: 390px;
+        width: 300px;
+        height: 400px;
+    }
+    
+
+}
+
+

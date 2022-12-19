@@ -27,7 +27,6 @@
     display: flex;
     gap: 50px;
     flex-direction: row;
-    
 }
 
 #home-links a{
@@ -36,6 +35,20 @@
 
 #home-links a:hover{
     color: hsl(191,100%,34%);
+}
+
+@media (max-height:1000px) {
+
+    #container-home{
+        background-image: none;
+    }
+
+    #home-msg{
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        top:200px ;
+    }    
 }
 
 
